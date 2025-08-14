@@ -15,16 +15,16 @@
     "dark-mode",
     "code-organization"
   ],
-  "author": "Your Name",
+  "author": "Andrew turner",
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/yourusername/code-snippet-manager.git"
+    "url": "git+https://github.com/astuk/code-snippet-manager.git"
   },
   "bugs": {
-    "url": "https://github.com/yourusername/code-snippet-manager/issues"
+    "url": "https://github.com/astuk/code-snippet-manager/issues"
   },
-  "homepage": "https://github.com/yourusername/code-snippet-manager#readme",
+  "homepage": "https://github.com/astuk/code-snippet-manager#readme",
   "scripts": {
     "start": "open snippet-manager.html",
     "test": "echo \"No tests configured\"",
