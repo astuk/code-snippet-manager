@@ -10,13 +10,68 @@
     <meta property="og:title" content="Code Snippet Manager - Your Personal Code Library">
     <meta property="og:description" content="Organize and manage your code snippets with groups, themes, and export features. Free, no signup required.">
     <meta property="og:type" content="website">
-    <meta property="og:url" content="https://yourwebsite.com/snippet-manager">
-    <meta property="og:image" content="https://yourwebsite.com/snippet-manager-preview.jpg">
+    <meta property="og:url" content="https://# Operating System Files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Editor Files
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+*.swp
+*.swo
+*~
+
+# Backup Files
+*.backup
+*.bak
+*.tmp
+*.temp
+*.old
+*_backup*
+
+# User Data (if testing locally)
+test-snippets/
+user-backups/
+*.json.backup
+
+# Build/Deploy Files
+dist/
+build/
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Documentation Build
+docs/_site/
+docs/.jekyll-cache/
+
+# Screenshot Working Files
+*.psd
+*.ai
+*.sketch
+
+# Local Environment
+.env
+.env.local
+
+# Logs
+*.log
+logs/
+
+# Testing
+coverage/
+*.test.html
+test-data//snippet-manager">
+    <meta property="og:image" content="https://snippet-manager.connectedi.co.uk/snippet-manager-preview.jpg">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="Code Snippet Manager - Organize Your Code">
     <meta name="twitter:description" content="Free code snippet manager with dark mode, groups, and export features. No signup required.">
     <meta name="robots" content="index, follow">
-    <link rel="canonical" href="https://yourwebsite.com/snippet-manager">
+    <link rel="canonical" href="https://snippet-manager.connectedi.co.uk/snippet-manager">
     <style>
         :root {
             --bg-primary: linear-gradient(135deg, #1e3c72 0%, #2a5298 100%);
@@ -764,7 +819,7 @@
         </div>
 
         <div class="footer">
-            <a href="https://www.buymeacoffee.com/yourname" target="_blank" rel="noopener noreferrer" class="footer-link" title="Support the development">
+            <a href="https://www.buymeacoffee.com/andrewturner" target="_blank" rel="noopener noreferrer" class="footer-link" title="Support the development">
                 <span class="coffee-icon">☕</span>
                 Buy Me a Coffee
             </a>
@@ -795,8 +850,7 @@
     <script>
         // Store snippets and groups in memory
         let snippets = [];
-        let groups = ['General', 'JavaScript', 'Python', 'HTML/CSS', 'SQL', 'React', 'Node.js', 
-                     'Qualys', 'PowerShell', 'Windows Admin', 'Network/Security', 'Linux/Bash', 'Data/Excel'];
+        let groups = ['General', 'JavaScript', 'Python', 'HTML/CSS', 'SQL', 'React', 'Node.js', 'PowerShell', 'Windows Admin', 'Network/Security', 'Linux/Bash', 'Data/Excel'];
         let defaultGroups = ['General']; // Groups that cannot be deleted
         let filteredSnippets = [];
         let editingSnippetId = null;
