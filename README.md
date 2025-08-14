@@ -187,7 +187,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## 🔗 Links
 
-- [Live Demo](https://connectedi.co.uk/snippet-manager)
+- [Live Demo](https://snippet-manager.connectedi.co.uk/)
 - [Download Latest Version](https://github.com/astuk/code-snippet-manager/releases)
 - [Documentation](https://github.com/astuk/code-snippet-manager/wiki)
 - [Changelog](CHANGELOG.md)
