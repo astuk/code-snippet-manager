@@ -1,0 +1,43 @@
+{
+  "name": "code-snippet-manager",
+  "version": "2.0.0",
+  "description": "A powerful, free code snippet manager with dark mode and advanced organization features",
+  "main": "snippet-manager.html",
+  "keywords": [
+    "snippet-manager",
+    "code-snippets",
+    "developer-tools",
+    "productivity",
+    "javascript",
+    "html5",
+    "localStorage",
+    "no-dependencies",
+    "dark-mode",
+    "code-organization"
+  ],
+  "author": "Your Name",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yourusername/code-snippet-manager.git"
+  },
+  "bugs": {
+    "url": "https://github.com/yourusername/code-snippet-manager/issues"
+  },
+  "homepage": "https://github.com/yourusername/code-snippet-manager#readme",
+  "scripts": {
+    "start": "open snippet-manager.html",
+    "test": "echo \"No tests configured\"",
+    "serve": "python -m SimpleHTTPServer 8000 || python3 -m http.server 8000"
+  },
+  "engines": {
+    "browsers": [
+      "Chrome >= 60",
+      "Firefox >= 55",
+      "Safari >= 11",
+      "Edge >= 79"
+    ]
+  },
+  "private": false,
+  "dependencies": {}
+}
